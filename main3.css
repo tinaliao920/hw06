@@ -1,0 +1,52 @@
+body{
+    font-size: 30px;
+}
+
+@media (max-width: 767px) {
+    body{
+        transition: 1s;
+        background: red;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    body{
+        transition: 1s;
+        background: blue;
+        font-size: 1px;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+    body{
+        transition: 1s;
+        background: green;
+    }
+}
+
+@media (min-width: 980px) {
+    body{
+        transition: 1s;
+        background: orange;
+    }
+}
+
+@media (min-width: 1200px) {
+    body{
+        transition: 1s;
+        background: purple;
+    }
+}
+
+
+
+
+
+
+
+
+
+
